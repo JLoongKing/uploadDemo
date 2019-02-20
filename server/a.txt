@@ -1,0 +1,168 @@
+Array
+(
+    [file] => Array
+        (
+            [name] => u=169725531,3494195910&fm=200&gp=0.jpg
+            [type] => image/jpeg
+            [tmp_name] => D:\xmapp\tmp\php347B.tmp
+            [error] => 0
+            [size] => 32266
+        )
+
+)
+Array
+(
+    [file] => Array
+        (
+            [name] => u=517748425,2883022337&fm=11&gp=0.jpg
+            [type] => image/jpeg
+            [tmp_name] => D:\xmapp\tmp\php349C.tmp
+            [error] => 0
+            [size] => 46433
+        )
+
+)
+Array
+(
+    [file] => Array
+        (
+            [name] => u=1230357351,92223899&fm=11&gp=0.jpg
+            [type] => image/jpeg
+            [tmp_name] => D:\xmapp\tmp\php34BC.tmp
+            [error] => 0
+            [size] => 41513
+        )
+
+)
+Array
+(
+    [file] => Array
+        (
+            [name] => u=3441536470,2328864305&fm=200&gp=0.jpg
+            [type] => image/jpeg
+            [tmp_name] => D:\xmapp\tmp\php34CC.tmp
+            [error] => 0
+            [size] => 21410
+        )
+
+)
+Array
+(
+    [file] => Array
+        (
+            [name] => u=169725531,3494195910&fm=200&gp=0.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF6E8.tmp
+            [error] => 0
+            [size] => 37830
+        )
+
+)
+Array
+(
+    [file] => Array
+        (
+            [name] => u=517748425,2883022337&fm=11&gp=0.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php3569.tmp
+            [error] => 0
+            [size] => 54571
+        )
+
+)
+Array
+(
+    [file] => Array
+        (
+            [name] => u=517748425,2883022337&fm=11&gp=0.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php5854.tmp
+            [error] => 0
+            [size] => 54467
+        )
+
+)
+Array
+(
+    [file] => Array
+        (
+            [name] => u=1230357351,92223899&fm=11&gp=0.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php5874.tmp
+            [error] => 0
+            [size] => 48952
+        )
+
+)
+Array
+(
+    [file] => Array
+        (
+            [name] => 52559a42d30b7dbe729b3a928c80b56d.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpC999.tmp
+            [error] => 0
+            [size] => 16981
+        )
+
+)
+Array
+(
+    [file] => Array
+        (
+            [name] => 3ec75d81c176ac9cf1a72c86312d927a.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpC9C9.tmp
+            [error] => 0
+            [size] => 119502
+        )
+
+)
+Array
+(
+    [file] => Array
+        (
+            [name] => 3ec75d81c176ac9cf1a72c86312d927a.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php2572.tmp
+            [error] => 0
+            [size] => 119502
+        )
+
+)
+Array
+(
+    [file] => Array
+        (
+            [name] => 52559a42d30b7dbe729b3a928c80b56d.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php2592.tmp
+            [error] => 0
+            [size] => 16981
+        )
+
+)
+Array
+(
+    [file] => Array
+        (
+            [name] => 52559a42d30b7dbe729b3a928c80b56d.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php6C9F.tmp
+            [error] => 0
+            [size] => 16981
+        )
+
+)
+Array
+(
+    [file] => Array
+        (
+            [name] => 52559a42d30b7dbe729b3a928c80b56d.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php750D.tmp
+            [error] => 0
+            [size] => 16981
+        )
+
+)

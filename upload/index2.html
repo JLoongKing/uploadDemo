@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>myUploader</title>
+    <link rel="stylesheet" type="text/css" href="../css/webuploader.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+<body onload="">
+   
+    <div id="wrapper">
+        <div id="container2">
+                <!--头部，相册选择和格式选择-->
+                <div id="uploader2">
+                    <div class="queueList">
+                        <div id="filePickerimg">
+                           
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/webuploader.js"></script>
+    <script src="../js/upload.js"></script>
+    <script type="text/javascript">
+     $.post("../server/preview.php",function(result){
+        rows=eval(result);
+        console.log(rows);
+        for(i=0;i<rows.length;i++){
+            $("#filePickerimg").append('<div class="imgdiv"><img src="'+rows[i][2]+'"/><div onclick="del('+rows[i][0]+')" class="closeicon">'+rows[i][1]+'&nbsp;&nbsp;X&nbsp;</div></div>')
+        }
+       
+    });
+    function del($id){
+        $.post("../server/del.php",{"id":$id},function(result){
+            if(eval('(' + result + ')').status=="success"){
+                alert("删除成功");
+                window.location.reload();
+            }else{
+                alert("删除失败");
+            }
+            
+        });
+    }
+    </script>
+</body>
+</html>
