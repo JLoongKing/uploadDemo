@@ -25,13 +25,13 @@ for($i=0; $i<count($v); $i++) {
             die();
         }
         mysqli_select_db( $con,"imgcode_db");
-        $sql="UPDATE code_img SET islast=0 WHERE id=".$v[$i][0].";";
+        $sql="UPDATE code_img SET islast=0,times=times+1 WHERE id=".$v[$i][0].";";
 
-        if (!mysqli_query($con,$sql))
+        $result = $con-> query($sql);
+        if (!$result)
         {
             die('Error: ' . mysqli_error($con));
         }
-        $result = $con-> query($sql);
         mysqli_close($con);
         if(!isset($v[$i+1])){
             $con = mysqli_connect("localhost","root","123456");
@@ -66,7 +66,7 @@ for($i=0; $i<count($v); $i++) {
             $result = $con-> query($sql);
             mysqli_close($con);
         }
-        
+
         die(json_encode(["name"=>$v[$i][1],"url"=>$v[$i][2]]));
     }
 }
@@ -103,6 +103,20 @@ if(count($v)>1){
     $result = $con-> query($sql);
     mysqli_close($con);
 }
+$con = mysqli_connect("localhost","root","123456");
+if (!$con)
+{
+    var_dump('Could not connect: ' . mysql_error());
+    die();
+}
+mysqli_select_db( $con,"imgcode_db");
+$sql="UPDATE code_img SET times=times+1 WHERE id=".$v[0][0].";";
+$result = $con-> query($sql);
+if (!$result)
+{
+    die('Error: ' . mysqli_error($con));
+}
+mysqli_close($con);
 die(json_encode(["name"=>$v[0][1],"url"=>$v[0][2]]));
 
 
